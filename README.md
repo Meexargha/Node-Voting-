@@ -1,45 +1,36 @@
-# Node-Voting
+# 🗳 Node Voting API
 
-A simple voting system built with Node.js. Provides user and candidate models, JWT authentication, REST routes, and database integration.
-
----
-
-## Table of Contents
-
-- [Features](#features)  
-- [Tech Stack](#tech-stack)  
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [Environment Variables](#environment-variables)  
-- [Routes](#routes)  
-- [Contributing](#contributing)  
-- [License](#license)
+A **Node.js backend API** for managing users, candidates, and voting, built with **Express.js** and **MongoDB**.  
+This project provides secure JWT-based authentication, role-based access, and CRUD operations for candidates and users.
 
 ---
 
-## Features
+##  Features
 
-- User registration & login  
-- JWT authentication & authorization  
-- CRUD for candidates & votes  
-- Secure endpoints  
-- Database storage (you can use MongoDB / whatever you have configured)  
-
----
-
-## Tech Stack
-
-- Node.js  
-- Express.js  
-- JWT (JSON Web Tokens)  
-- Database (details in your `db` folder)  
-- JavaScript  
+- User signup and login with JWT authentication  
+- Add, retrieve, update, and delete candidates  
+- Cast votes for candidates  
+- View total votes for each candidate  
+- Role-based access control (admin/user)  
+- MongoDB for persistent storage  
+- Environment variables managed via `.env`  
 
 ---
 
-## Installation
+## 🛠 Tech Stack
 
-1. Clone the repo:  
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![dotenv](https://img.shields.io/badge/dotenv-000000?style=for-the-badge&logo=dotenv&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+---
+
+##  Installation
+
+1. Clone the repository:
    ```bash
    git clone https://github.com/Meexargha/Node-Voting-.git
    cd Node-Voting-
